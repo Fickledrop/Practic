@@ -1,0 +1,80 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+
+.fon{
+    /* background-color: #b33b6d; */
+    /* background: linear-gradient(to bottom right, blue, pink); */
+    /* height: 1000px; */
+    background: -webkit-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: -moz-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: -o-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: -ms-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: linear-gradient(10deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    height: 1000px;
+}
+.box{
+    display: inline-flex;
+    background-color: grey;
+    display: block;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    height: 930px;
+    width: 1600px;
+    display: grid;
+    border-radius: 20px;
+
+}
+.box-niz{
+    display: block;
+    background-color: white;
+    height: 600px;
+    width: 1600px;
+    gap: 200px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+     background: -webkit-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: -moz-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: -o-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: -ms-linear-gradient(80deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+    background: linear-gradient(10deg,red 0%,red 52%,red 52%,yellow 52.05%,yellow 100%);
+
+}
+.poisk{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #B5B8B1;
+    height: 50px;
+    width: 300px;
+}
+.poisk2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #B5B8B1;
+    height: 50px;
+    width:200px;
+}
+.block1{
+    display:flex;
+    height: 300px;
+    width:250px;
+    background-color: #B5B8B1;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    margin-top: 120px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
